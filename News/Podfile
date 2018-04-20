@@ -1,0 +1,18 @@
+platform :ios, '9.0'
+
+target 'News' do
+
+use_frameworks!
+
+pod 'Alamofire'
+pod 'Kingfisher'
+pod 'AFNetworking'
+pod 'SVProgressHUD'
+pod 'SnapKit'
+pod 'PullToRefreshKit', '~> 0.4.0'
+pod 'SwiftyJSON', :git => 'https://github.com/IBM-Swift/SwiftyJSON.git'
+pod 'ChameleonFramework/Swift', :git=>'https://github.com/ViccAlexander/Chameleon.git'
+pod 'CVCalendar'
+
+
+end
